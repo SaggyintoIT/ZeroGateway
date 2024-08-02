@@ -12,14 +12,14 @@ const TestimonialSlider = () => {
         loop: true,
         slides: {
           origin: "",
-          perView: 2, // Adjusted to display 2 blockquotes fully
+          perView: 2, 
           spacing: 16,
         },
         breakpoints: {
           "(min-width: 1500px)": {
             slides: {
               origin: "auto",
-              perView: 2, // Ensure 2 blockquotes are fully visible on larger screens
+              perView: 2, 
               spacing: 32,
             },
           },
