@@ -1,0 +1,188 @@
+/* Base styles for larger screens */
+.Hero-Section-Main {
+    width: 100%;
+    height: 100vh;
+    background-color: #102626;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Hero-Section-Main .hero-sub-main {
+    width: 73%;
+    height: 60%;
+
+    display: flex;
+
+}
+
+.hero-left {
+    width: 50%;
+    height: 65%;
+    display: flex;
+    margin-top: 3rem;
+    gap: 0;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-right {
+    width: 60%;
+    height: 100%;
+    padding-bottom: 2rem;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.hero-right img{
+    width: 64%;
+    
+}
+
+.hero-left h1 {
+    font-size: 3.5em;
+    font-family: sans-serif !important;
+    color: #e0ec5c;
+    font-weight: 600;
+}
+
+.hero-left p {
+    width: 38rem;
+    line-height: 1.5em;
+    color: rgb(217, 250, 217);
+}
+
+.hero-left button {
+    width: 90px;
+    height: 42px;
+    border-radius: 30px;
+    color: white;
+    font-size: small;
+    margin-right: 1.2rem;
+    background-color: transparent;
+    margin-top: 1rem;
+    border: 1px solid #e0ec5c84;
+}
+
+.hero-left .HeroStartbtn {
+    width: 200px;
+}
+
+.hero-left .heroSignup {
+    background-color: #e0ec5c;
+    color: black;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .Hero-Section-Main .hero-sub-main {
+        width: 90%;
+    }
+    
+    .hero-left, .hero-right {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-left h1 {
+        font-size: 3em;
+    }
+    
+    .hero-left p {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    .hero-left button {
+        width: 80px;
+        height: 40px;
+    }
+    
+    .hero-left .HeroStartbtn {
+        width: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Hero-Section-Main {
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    .Hero-Section-Main .hero-sub-main {
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .hero-left, .hero-right {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-left h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero-left p {
+        font-size: 0.9em;
+    }
+    
+    .hero-left button {
+        width: 70px;
+        height: 38px;
+    }
+    
+    .hero-left .HeroStartbtn {
+        width: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-left h1 {
+        font-size: 2em;
+    }
+    
+    .hero-left p {
+        font-size: 0.8em;
+    }
+    
+    .hero-left button {
+        width: 60px;
+        height: 35px;
+    }
+    
+    .hero-left .HeroStartbtn {
+        width: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Hero-Section-Main {
+        height: auto;
+        padding: 1rem 0;
+    }
+    
+    .Hero-Section-Main .hero-sub-main {
+        width: 100%;
+    }
+    
+    .hero-left h1 {
+        font-size: 1.5em;
+    }
+    
+    .hero-left p {
+        font-size: 0.7em;
+        width: 100%;
+    }
+    
+    .hero-left button {
+        width: 50px;
+        height: 30px;
+    }
+    
+    .hero-left .HeroStartbtn {
+        width: 120px;
+    }
+}
