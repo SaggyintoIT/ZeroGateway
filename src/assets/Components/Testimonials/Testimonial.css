@@ -1,0 +1,28 @@
+@media (max-width: 767px){
+    blockquote{
+        width: 90% !important;
+        margin-left: 6rem;
+    }
+    .keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide {
+     padding-left: 2rem;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 640px){
+
+    .keen-slider__slide{
+        width: 80% !important;
+    }
+    blockquote{
+        width: 100% !important;
+        margin-left: 6rem;
+        padding: 1rem !important;
+    }
+}
+@media(max-width:362px)
+{
+    .testisub{
+        font-size: 40px !important;
+    }
+}

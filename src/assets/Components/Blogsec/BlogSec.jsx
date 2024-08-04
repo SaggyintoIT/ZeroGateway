@@ -15,111 +15,102 @@ const BlogSec = () => {
             </p>
           </div>
           {/* text - end */}
-<div className="mainblogcont w-full flex justify-center">
-          <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8 justify-center w-3/4 p-8">
-            <div className="flex flex-col overflow-hidden rounded-lg bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Lorenzo Herrera"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 rounded-xl group-hover:scale-110"
-                />
-              </a>
+          <div className="mainblogcont w-full flex justify-center">
+            <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8 justify-center w-full px-4 sm:px-8 md:px-12 lg:px-0">
+              <div className="flex flex-col overflow-hidden rounded-lg bg-white shadow-sm">
+                <a
+                  href="#"
+                  className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Lorenzo Herrera"
+                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 rounded-xl group-hover:scale-110"
+                  />
+                </a>
 
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-              <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
-                <h2 className="mb-2 text-2xl font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                  >
-                    Working with legacy stacks and Queue
-                  </a>
-                </h2>
+                <div className="flex flex-1 flex-col p-4 sm:p-6">
+                  <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
+                  <h2 className="mb-2 text-2xl font-semibold text-gray-800">
+                    <a
+                      href="#"
+                      className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                    >
+                      Working with legacy stacks and Queue
+                    </a>
+                  </h2>
 
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as placeholder text. It
-                  shares some characteristics of a real written text.
-                </p>
+                  <p className="mb-8 text-gray-500">
+                    This is a section of some simple filler text, also known as placeholder text. It
+                    shares some characteristics of a real written text.
+                  </p>
+                </div>
+              </div>
 
-                
+              {/* Repeat the above block for other articles */}
+              <div className="flex flex-col overflow-hidden rounded-lg bg-white shadow-sm">
+                <a
+                  href="#"
+                  className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Magicle"
+                    className="absolute inset-0 h-full w-full object-cover rounded-lg object-center transition duration-200 group-hover:scale-110"
+                  />
+                </a>
+
+                <div className="flex flex-1 flex-col p-4 sm:p-6">
+                  <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
+                  <h2 className="mb-2 text-lg text-2xl font-semibold text-gray-800">
+                    <a
+                      href="#"
+                      className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                    >
+                      10 best smartphones for devs
+                    </a>
+                  </h2>
+
+                  <p className="mb-8 text-gray-500">
+                    This is a section of some simple filler text, also known as placeholder text. It
+                    shares some characteristics of a real written text.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col overflow-hidden rounded-lg bg-white shadow-sm">
+                <a
+                  href="#"
+                  className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Martin Sanchez"
+                    className="absolute inset-0 h-full w-full object-cover rounded-lg object-center transition duration-200 group-hover:scale-110"
+                  />
+                </a>
+
+                <div className="flex flex-1 flex-col p-4 sm:p-6">
+                  <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
+                  <h2 className="mb-2 text-lg text-2xl font-semibold text-gray-800">
+                    <a
+                      href="#"
+                      className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                    >
+                      8 High performance Notebooks
+                    </a>
+                  </h2>
+
+                  <p className="mb-8 text-gray-500">
+                    This is a section of some simple filler text, also known as placeholder text. It
+                    shares some characteristics of a real written text.
+                  </p>
+                </div>
               </div>
             </div>
-            {/* article - end */}
-
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg  bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Magicle"
-                  className="absolute inset-0 h-full w-full object-cover rounded-lg object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-              <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
-                <h2 className="mb-2 text-lg text-2xl font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                  >
-                    10 best smartphones for devs
-                  </a>
-                </h2>
-
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as placeholder text. It
-                  shares some characteristics of a real written text.
-                </p>
-
-              
-              </div>
-            </div>
-            {/* article - end */}
-
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg  bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Martin Sanchez"
-                  className="absolute inset-0 h-full w-full object-cover rounded-lg object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-              <span className="block text-m text-gray-400">April 07, 2024 | Views 7777</span>
-                <h2 className="mb-2 text-lg text-2xl font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                  >
-                    8 High performance Notebooks
-                  </a>
-                </h2>
-
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as placeholder text. It
-                  shares some characteristics of a real written text.
-                </p>
-
-               
-              </div>
-            </div>
-          </div>
           </div>
           {/* article - end */}
         </div>

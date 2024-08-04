@@ -33,7 +33,7 @@ const PaymentSolution = () => {
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">QR Codes</h4>
             <p className="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-              We have the most up-to-date security to support the security of all our customers in carrying out all transactions.asdasdasdasdadsasd
+              We have the most up-to-date security to support the security of all our customers in carrying out all transactions.
             </p>
           </div>
           <div className="group relative bg-[#fbf3d3] rounded-2xl p-6 transition-all duration-500 hover:bg-yellow-400">
@@ -55,7 +55,7 @@ const PaymentSolution = () => {
             </div>
             <h4 className="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Smart Route</h4>
             <p className="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-              We offer various flexible plans to suit your financial needs and preferences.asdasdasdasdasd.asdasdas
+              We offer various flexible plans to suit your financial needs and preferences.
             </p>
           </div>
           <div className="group relative bg-[#fbfbdc] rounded-2xl p-6 transition-all duration-500 hover:bg-yellow-200">

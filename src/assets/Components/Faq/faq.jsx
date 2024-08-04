@@ -30,18 +30,18 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="fullblog-sec w-full  bg-[#102626]">
-    <div className="relative w-11/12 max-w-6xl mx-auto px-6 pt-10 pb-8 mt-8 sm:mx-auto sm:rounded-lg sm:px-10 bg-green">
-      <div className="mx-auto px-5">
-        <div className="flex flex-col start ">
-          <h2 className="mt-5 text-3xl font-bold tracking-tight md:text-5xl">FAQ</h2>
-          
+    <div className="w-full bg-[#102626]">
+      <div className="relative w-11/12 max-w-6xl mx-auto px-4 pt-10 pb-8 mt-8 sm:px-6 lg:px-8 sm:rounded-lg bg-green">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">
+            FAQ
+          </h2>
         </div>
-        <div className="mx-auto mt-8 grid divide-y divide-neutral-200">
+        <div className="mx-auto mt-8 grid divide-y divide-neutral-700">
           {faqData.map((item, index) => (
             <div key={index} className="py-5">
               <details className="group">
-                <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+                <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-medium text-white">
                   <span>{item.question}</span>
                   <span className="transition group-open:rotate-180">
                     <svg
@@ -54,12 +54,13 @@ const FAQ = () => {
                       strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="24"
+                      className="text-white"
                     >
                       <path d="M6 9l6 6 6-6"></path>
                     </svg>
                   </span>
                 </summary>
-                <p className="group-open:animate-fadeIn mt-3 text-neutral-400">
+                <p className="group-open:animate-fadeIn mt-3 text-neutral-300">
                   {item.answer}
                 </p>
               </details>
@@ -67,7 +68,6 @@ const FAQ = () => {
           ))}
         </div>
       </div>
-    </div>
     </div>
   );
 };
