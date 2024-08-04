@@ -19,8 +19,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 75% !important;
     padding: 20px;
+
 }
 
 .navbar-logo img {
@@ -119,6 +120,9 @@ body {
 
 /* Media Queries */
 @media (max-width: 1024px) {
+    .navbar{
+        width: 100% !important;
+    }
     .navbar-links {
         display: none;
     }
