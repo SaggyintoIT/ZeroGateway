@@ -163,9 +163,11 @@
         height: auto;
         padding: 1rem 0;
     }
-    
+    .HeroStartbtn{
+        font-size: small;
+    }
     .Hero-Section-Main .hero-sub-main {
-        width: 100%;
+       
     }
     
     .hero-left h1 {
@@ -183,6 +185,7 @@
     }
     
     .hero-left .HeroStartbtn {
-        width: 120px;
+        font-size: 10px;
+        margin-bottom: 2rem;
     }
 }

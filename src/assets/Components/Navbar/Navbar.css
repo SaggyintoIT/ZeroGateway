@@ -20,13 +20,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    width: 75%; /* Adjusted for smaller screens */
+    width: 75%;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
-    font-size: 1.5rem; /* Adjusted font size */
+    font-size: 1.5rem;
 }
 
 .navbar-links ul {
